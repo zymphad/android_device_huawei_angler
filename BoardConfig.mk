@@ -32,10 +32,10 @@ TARGET_2ND_CPU_VARIANT := cortex-a53.a57
 ENABLE_CPUSETS := true
 
 # Inline kernel building
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9-kernel/bin
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
-TARGET_KERNEL_SOURCE := kernel/huawei/angler
-TARGET_KERNEL_CONFIG := pure_defconfig
+TARGET_KERNEL_SOURCE := kernel/huawei/flash
+TARGET_KERNEL_CONFIG := flash_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 
 BOARD_KERNEL_BASE        := 0x00000000
