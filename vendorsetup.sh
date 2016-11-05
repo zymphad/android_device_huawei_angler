@@ -15,6 +15,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo nitrogen_angler-user
+add_lunch_combo aosp_angler-userdebug
 add_lunch_combo nitrogen_angler-userdebug
-add_lunch_combo nitrogen_angler-end
