@@ -22,7 +22,7 @@ TARGET_SCREEN_WIDTH := 1440
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit AOSP device configuration for angler.
-$(call inherit-product, device/huawei/angler/full_angler.mk)
+$(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
 # Inherit some common Nitrogen stuff.
 $(call inherit-product, vendor/nitrogen/products/common.mk)
