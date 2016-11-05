@@ -28,7 +28,7 @@ $(call inherit-product, device/huawei/angler/full_angler.mk)
 $(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Setup device specific product configuration.
-PRODUCT_NAME := aosip_angler
+PRODUCT_NAME := nitrogen_angler
 PRODUCT_BRAND := Google
 PRODUCT_DEVICE := angler
 PRODUCT_MODEL := Nexus 6P
